@@ -1,0 +1,6 @@
+framework module SaudacaoO {
+  umbrella header "SaudacaoO-umbrella.h"
+
+  export *
+  module * { export * }
+}

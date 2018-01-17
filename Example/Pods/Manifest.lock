@@ -1,0 +1,16 @@
+PODS:
+  - SaudacaoO (0.1.0)
+
+DEPENDENCIES:
+  - SaudacaoO (from `../`)
+
+EXTERNAL SOURCES:
+  SaudacaoO:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SaudacaoO: fc8b12a5bfcbcbdd8c594166e5d1d74a44c5dc88
+
+PODFILE CHECKSUM: 7d2bf41de76056d4fd970761b10011b8b42f1109
+
+COCOAPODS: 1.3.1
