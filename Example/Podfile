@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SaudacaoO_Example' do
+  pod 'SaudacaoO', :path => '../'
+
+  target 'SaudacaoO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
