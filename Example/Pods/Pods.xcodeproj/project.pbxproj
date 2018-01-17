@@ -10,7 +10,7 @@
 		12CE034040CCEDD707AFE6BC4402A6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3E906ABCE6C81C01E892A93D1B049DAE /* SaudacaoO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E6473BF9F91F5DE1ACD0A2EEC802EF /* SaudacaoO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42FF695A578C8AAC10F9FA02A84C9C60 /* Pods-SaudacaoO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA0FD73930466A2EF2973FA21BC3A13 /* Pods-SaudacaoO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D21D1932C3A09E3A4A1ABEA1B1A00A9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9CA1BBEF9B1804963AD7F9CAD58D8 /* ReplaceMe.swift */; };
+		435B9A24200ED28200A420E7 /* Saudacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B9A23200ED28200A420E7 /* Saudacao.swift */; };
 		541D8F31DB6E6FC91B732B9C0AEEEC81 /* Pods-SaudacaoO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CE71420AA42A50DDE6012D2C5C0874 /* Pods-SaudacaoO_Tests-dummy.m */; };
 		C26EAD204F0DF5DBBD7A5B577A898BB5 /* Pods-SaudacaoO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 748F3C9C1C9C2C44C5130F1E8533983A /* Pods-SaudacaoO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3DD846B9E524C335D240A2148003B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -32,26 +32,26 @@
 /* Begin PBXFileReference section */
 		02E6473BF9F91F5DE1ACD0A2EEC802EF /* SaudacaoO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SaudacaoO-umbrella.h"; sourceTree = "<group>"; };
 		050D3CB78FD1D58365AB36AD8207312A /* Pods-SaudacaoO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SaudacaoO_Example-dummy.m"; sourceTree = "<group>"; };
-		10E9CA1BBEF9B1804963AD7F9CAD58D8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SaudacaoO/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		11CE71420AA42A50DDE6012D2C5C0874 /* Pods-SaudacaoO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SaudacaoO_Tests-dummy.m"; sourceTree = "<group>"; };
-		12548B5627ADE3A9D89010D3660CD953 /* SaudacaoO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SaudacaoO.framework; path = SaudacaoO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AA8803953C642CB0BF834A516DF1239 /* Pods-SaudacaoO_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SaudacaoO_Example.modulemap"; sourceTree = "<group>"; };
+		12548B5627ADE3A9D89010D3660CD953 /* SaudacaoO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SaudacaoO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA8803953C642CB0BF834A516DF1239 /* Pods-SaudacaoO_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SaudacaoO_Example.modulemap"; sourceTree = "<group>"; };
 		1C86D1947145C88869FF5BED1488F558 /* Pods-SaudacaoO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaudacaoO_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38EA016D66F2101AA8E6990A59CE9F62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435B9A23200ED28200A420E7 /* Saudacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saudacao.swift; sourceTree = "<group>"; };
 		5646856C18CE07ED3460D79E48CA324E /* Pods-SaudacaoO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SaudacaoO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B3F766DA77670473CA3C5B857BC094A /* Pods_SaudacaoO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SaudacaoO_Tests.framework; path = "Pods-SaudacaoO_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3F766DA77670473CA3C5B857BC094A /* Pods_SaudacaoO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaudacaoO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		668DA0DAC1D2ABFE49A05E7B7CF39911 /* Pods-SaudacaoO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaudacaoO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6822CD24C54834BEF66267F6C79AC09D /* SaudacaoO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SaudacaoO.modulemap; sourceTree = "<group>"; };
+		6822CD24C54834BEF66267F6C79AC09D /* SaudacaoO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SaudacaoO.modulemap; sourceTree = "<group>"; };
 		6EDB57CAA56F92A7684FB92D53E30822 /* SaudacaoO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SaudacaoO-prefix.pch"; sourceTree = "<group>"; };
-		745F8E91D537374CD2E2B0DFFD2F1DC8 /* Pods_SaudacaoO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SaudacaoO_Example.framework; path = "Pods-SaudacaoO_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745F8E91D537374CD2E2B0DFFD2F1DC8 /* Pods_SaudacaoO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaudacaoO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F3C9C1C9C2C44C5130F1E8533983A /* Pods-SaudacaoO_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SaudacaoO_Example-umbrella.h"; sourceTree = "<group>"; };
 		83252A5EEC8AB9031217B8461CE38922 /* Pods-SaudacaoO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SaudacaoO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F3C8374FAED959F91BE6FA16C257E7F /* SaudacaoO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SaudacaoO.xcconfig; sourceTree = "<group>"; };
 		9222D8AC8EC0B004137D247DC418CED6 /* Pods-SaudacaoO_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaudacaoO_Example-resources.sh"; sourceTree = "<group>"; };
 		925F4C5223CED9354B983E77BA88BC4D /* SaudacaoO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SaudacaoO-dummy.m"; sourceTree = "<group>"; };
 		93921E885DC8B65ADD091D3A1726A2E6 /* Pods-SaudacaoO_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaudacaoO_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8DEF1C4D2775CD1F15D3CD1F23BFCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A580FF605C4B4CF04239B88CF8196E30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB45DAB23BAFCECBBC1C581ED90ACB50 /* Pods-SaudacaoO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SaudacaoO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		DC36EC736B6FB4ACB662DC045608C268 /* Pods-SaudacaoO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SaudacaoO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCD5F753A69B6B8D926836B75165C4E5 /* Pods-SaudacaoO_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaudacaoO_Tests-resources.sh"; sourceTree = "<group>"; };
 		EAA0FD73930466A2EF2973FA21BC3A13 /* Pods-SaudacaoO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SaudacaoO_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F716D1808D5C54EC7166C88D5F476CCA /* Pods-SaudacaoO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SaudacaoO_Tests.modulemap"; sourceTree = "<group>"; };
+		F716D1808D5C54EC7166C88D5F476CCA /* Pods-SaudacaoO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SaudacaoO_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +191,7 @@
 		F91BBA6D61172177BA15816852B449EC /* SaudacaoO */ = {
 			isa = PBXGroup;
 			children = (
-				10E9CA1BBEF9B1804963AD7F9CAD58D8 /* ReplaceMe.swift */,
+				435B9A23200ED28200A420E7 /* Saudacao.swift */,
 				77250C577FF1A554FF93F96C9882C769 /* Support Files */,
 			);
 			name = SaudacaoO;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					7857575CE5A792B373564A8ACBB3A36B = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D21D1932C3A09E3A4A1ABEA1B1A00A9 /* ReplaceMe.swift in Sources */,
 				CEC88870F5C729B9A7E4EDE8B521124F /* SaudacaoO-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435B9A24200ED28200A420E7 /* Saudacao.swift in Sources */,
 				CAA3B66D23CBD74D19BB78338A83A963 /* Pods-SaudacaoO_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C86D1947145C88869FF5BED1488F558 /* Pods-SaudacaoO_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -442,6 +448,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -516,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8E685C882D9509E6869B53E6385E7BE /* Pods-SaudacaoO_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -539,6 +547,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
